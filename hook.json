@@ -1,0 +1,52 @@
+{
+    "patches": [
+        {
+            "lib": "libUE4.so",
+            "offset": "QxdVUVo7WWF7",
+            "bytes": "Q19NUVlZWWNrdQASMF9NUVpZVBVrdQQ=",
+            "description": "Authority check bypass"
+        },
+        {
+            "lib": "libUE4.so",
+            "offset": "QxdaIyxAUWJz",
+            "bytes": "MF9NUVpZVBVrdQQ=",
+            "description": "Memory integrity check"
+        },
+        {
+            "lib": "libUE4.so",
+            "offset": "QxdaIl9KVWV7",
+            "bytes": "MF9NUVpZVBVrdQQ=",
+            "description": "Vtable validation (may cause crash)"
+        },
+        {
+            "lib": "libUE4.so",
+            "offset": "QxdYUy89VWZ/",
+            "bytes": "MF9NUVpZVBVrdQQ=",
+            "description": "CRC rechecks"
+        },
+        {
+            "lib": "libanogs.so",
+            "offset": "QxdeIlo8JWM=",
+            "bytes": "Q19NUVlZWWNrdQASMF9NUVpZVBVrdQQ=",
+            "description": "Unknown check bypass"
+        },
+        {
+            "lib": "libanogs.so",
+            "offset": "QxdeVig8J2M=",
+            "bytes": "Q19NUVlZWWNrdQASMF9NUVpZVBVrdQQ=",
+            "description": "Rule validation bypass"
+        },
+        {
+            "lib": "libanogs.so",
+            "offset": "QxdeWVBLJGM=",
+            "bytes": "Q19NUVlZWWNrdQASMF9NUVpZVBVrdQQ=",
+            "description": "Anti-debug state check"
+        },
+        {
+            "lib": "libanogs.so",
+            "offset": "QxdeWS06UGc=",
+            "bytes": "MF9NUVpZVBVrdQQ=",
+            "description": "Flag check bypass"
+        }
+    ]
+}
