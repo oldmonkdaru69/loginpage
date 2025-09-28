@@ -26,12 +26,6 @@
         },
         {
             "lib": "libanogs.so",
-            "offset": "QxdeIlo8JWM=",
-            "bytes": "Q19NUVlZWWNrdQASMF9NUVpZVBVrdQQ=",
-            "description": "Unknown check bypass"
-        },
-        {
-            "lib": "libanogs.so",
             "offset": "QxdeVig8J2M=",
             "bytes": "Q19NUVlZWWNrdQASMF9NUVpZVBVrdQQ=",
             "description": "Rule validation bypass"
@@ -50,3 +44,4 @@
         }
     ]
 }
+
